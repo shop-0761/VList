@@ -1,0 +1,23 @@
+#list{
+	display:inline-block;
+	border:2px solid #AAA;
+	width:600px;
+	height:300px;
+}
+#save{
+	display:inline-block;
+	width:400px;
+	height:40px;
+	font-weight:bold;
+	font-size:12px;
+	margin:4px auto;
+}
+#view{
+	display:inline-block;
+	width:200px;
+	height:40px;
+}
+
+#allOpen{
+	 margin-bottom:20px;
+}

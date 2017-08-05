@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="js">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- BootstrapのCSS読み込み -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- jQuery読み込み -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/popup.css">
+    <script type="text/javascript" src="js/popup.js"></script>
+</head>
+
+<body>
+    <input type="button" class="btn btn-success" id="save" value="このユーザーを保存">
+
+    <div id="URL-list" class="list-group">
+        
+    </div>
+    
+    <div class="allOpen">
+        <input type="button" class="btn btn-warning" id="allOpen" value="全部開く">
+    </div>
+
+    <div class="input-group">
+
+        <input type="text" class="form-control" id="removeTarget" placeholder="ユーザー名 or ドラッグ＆ドロップ">
+        <span class="input-group-btn">
+            <input type="button" class="btn btn-warning" id="remove" value="ちょい消し">
+        </span>
+    </div>
+
+    <input type="button" class="btn btn-danger" id="clear" value="全消し">
+</body>
+
+</html>

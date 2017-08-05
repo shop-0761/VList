@@ -1,0 +1,32 @@
+{
+  "name": "VList",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "VALUのあとで見たい人リストを作るやつ",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  
+  "background": {
+    "scripts": [
+      "js/background.js"
+    ]
+    //"persistent": false
+  },
+
+  "permissions":[
+        "tabs",
+        "storage",
+        "contextMenus",
+        "http://*/*", 
+        "https://*/*"
+    ],
+    
+	"browser_action":{
+		"default_icon":"icons/icon48.png",
+		"default_title":"valu-list",
+		"default_popup":"index.html"
+	}
+}
